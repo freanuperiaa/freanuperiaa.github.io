@@ -1,0 +1,13 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* style */
+
+h1 {
+    background-color: indianred;
+    font-family: Helvetica, Arial, Helvetica, sans-serif;
+}
