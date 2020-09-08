@@ -5,9 +5,122 @@
     box-sizing: border-box;
 }
 
-/* style */
+@font-face {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Proxima Nova'), url('../typography/ProximaNova-Regular.otf') format('truetype');
+}
+
+/* bootstrap custom styling */
+
+/* bootstrap collapse icon */
+.navbar-toggler-icon {
+    float: right;
+    height: 20px;
+    background-image: url('../images/bars.svg') !important;
+    /* https://stackoverflow.com/questions/24224112/css-filter-make-color-image-with-transparency-white */
+    filter: brightness(0) invert(1);
+}
+.navbar-toggler {
+    border:0px;
+}
+
+/* color of navbar */
+.navbar-custom-color {
+    background-color: indianred;
+}
+
+/* text in navbar */
+.navbar-custom-color  ul > li > a.nav-link
+{
+    color: white !important;
+    font-family: 'Proxima Nova', sans-serif;
+}
+
+.navbar-custom-color .navbar-brand {
+    color: white !important;
+    font-family: 'Raleway', sans-serif;
+    font-size: 32px;
+}
+
+
+/* custom style */
+
+body {
+    background-color: #0daae9;
+    background-image: url("../images/large-triangles.svg");
+    height: 99999px;
+}
 
 h1 {
     background-color: indianred;
     font-family: Helvetica, Arial, Helvetica, sans-serif;
 }
+
+
+section.landing {
+    margin: 12% 20%;
+    background-color: rgba(69, 71, 73, 0.8);
+    padding: 20px;
+    border-radius: 15px;
+}
+
+section.landing > p {
+    font-family: 'Fira Code', monospace;
+    text-align: center;
+    font-weight: bolder;
+    color: beige;
+    margin-top: 10px;
+    font-size: 36px;
+}
+
+section.image-me {
+    text-align: center;
+}
+
+section.image-me > img {
+
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: indianred;
+    border-width: 12px;
+    margin: 50px 0px 25px;
+}
+
+.about-me {
+    margin-top: -100px;
+    background-color: white;
+    padding: 120px 20px 20px 20px;
+    border-radius: 15px;
+}
+
+
+@media (max-width: 420px) {
+    .navbar-custom-color .navbar-brand {
+        font-size: 22px;
+    }
+
+    section.landing {
+        margin: 40% 10%;
+    }
+
+    section.landing > p {
+        font-size: 15px;
+    }
+
+    section.image-me > img {
+        height: 200px;
+        width: 200px;
+        border-width: 8px;
+    }
+
+    .about-me {
+        margin-top: -100px;
+    }
+  }
+
+
+
