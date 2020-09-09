@@ -144,7 +144,9 @@ section.image-me > img {
     width: 80px;
 }
 
-
+.skills-mobile {
+    display: none;
+}
 
 ol.carousel-indicators > li {
     background-color: grey;
@@ -158,6 +160,18 @@ ol.carousel-indicators > li {
 
 .mobile-skill-item {
     margin: 4% auto;
+}
+
+.carousel-inner > p.mobile-skill-title {
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    padding-left: 30px;
+    padding-top: 20px;;
+}
+
+#carouselExampleIndicators {
+    margin: 0px -8px;
 }
 
 @media (max-width: 550px) {
@@ -177,6 +191,14 @@ ol.carousel-indicators > li {
         height: 200px;
         width: 200px;
         border-width: 8px;
+    }
+
+    .skills-mobile {
+        display: block;
+    }
+
+    .skills-desktop {
+        display: none;
     }
 
     .about-me {
