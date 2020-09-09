@@ -215,6 +215,74 @@ ol.carousel-indicators > li {
     margin: 10px 0px;
 }
 
+.contact {
+    margin: 3% -1%;
+    background-color: indianred;
+    padding: 40px;
+    border-radius: 15px;
+}
+
+.contact-title {
+    color: white;
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+.subtitle {
+    color: white;
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.reach-out {
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+    font-size: 32px;
+    font-weight: lighter;
+}
+
+.contact-info__item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    margin: 0 auto;
+}
+
+
+.contact-info__item__image > img {
+    margin: 10px 15px;
+    height: 36px;
+}
+
+.contact-info__item__info {
+    color: #fff;
+    font-size: 20px;
+    font-style: italic;
+    
+}
+
+.external-links {
+    text-align: center;
+}
+
+.external-links > a {
+    margin: 0 20px;
+}
+
+.external-links > a > img {
+    height: 42px;
+}
+
+.external-links > a > img:hover {
+    filter: grayscale(80%);
+    opacity: 0.6;
+}
+
 @media (max-width: 550px) {
     .navbar-custom-color .navbar-brand {
         font-size: 22px;
@@ -294,6 +362,46 @@ ol.carousel-indicators > li {
 
     .work-experience-item__info__desc {
         font-size: 15px;
+    }
+
+    .contact {
+        margin:5% 10px;
+        padding: 20px;
+    }
+
+    .contact-title {
+        font-size: 24px;
+    }
+
+    .subtitle {
+        width: 80%;
+        font-size: 15px;
+    }
+
+    .reach-out {
+        font-size: 24px;
+    }
+
+    .contact-info__item {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .contact-info__item__image > img {
+        margin: 0;
+        height: 32px;
+    }
+
+    .contact-info__item__info {
+        font-size: 16px;
+    }
+
+    .external-links > a  {
+        margin: 0px 4px;
+    }
+
+    .external-links > a > img {
+        height: 25px;
     }
   }
 
