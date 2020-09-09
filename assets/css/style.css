@@ -101,12 +101,50 @@ section.image-me > img {
 
 .about-me > p {
     font-size: 24px;
-    font-weight: 600;
+    font-weight: 500;
     text-align: center;
 }
 
 
-@media (max-width: 420px) {
+.skills {
+    margin-top: 3%;
+    background-color: #F0F2F5;
+    padding: 40px;
+    border-radius: 15px;
+}
+
+.skills-title {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+.skill-item {
+    text-align: center;
+    margin: 2% 0;
+}
+
+.skill-icon {
+    background-color: skyblue;
+    height: 100px;
+    border-radius: 20px;
+}
+
+.adjust-image {
+    height: 85px;
+    margin-bottom: 15px;
+}
+
+.adjust-image-2 {
+    height: 90px;
+}
+
+.adjust-image-3 {
+    height: 80px;
+    width: 80px;
+}
+
+@media (max-width: 550px) {
     .navbar-custom-color .navbar-brand {
         font-size: 22px;
     }
@@ -130,7 +168,19 @@ section.image-me > img {
     }
 
     .about-me > p {
-        font-size: 20px;
+        font-size: 18px;
+    }
+
+    .adjust-card-mobile {
+        margin: 2% 15px 0px 15px;
+    }
+
+    .skills {
+        padding: 20px 5px;
+    }
+
+    .skills-title {
+        font-size: 24px;
     }
   }
 
