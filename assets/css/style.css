@@ -144,6 +144,22 @@ section.image-me > img {
     width: 80px;
 }
 
+
+
+ol.carousel-indicators > li {
+    background-color: grey;
+}
+
+.mobile-skill-row {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
+
+.mobile-skill-item {
+    margin: 4% auto;
+}
+
 @media (max-width: 550px) {
     .navbar-custom-color .navbar-brand {
         font-size: 22px;
