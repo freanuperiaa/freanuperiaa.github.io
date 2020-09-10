@@ -179,6 +179,11 @@ ol.carousel-indicators > li {
     margin: 0px -8px;
 }
 
+.work-experience-item__image > img.davph {
+    width: 100px;
+    height: auto;
+}
+
 .work-experience-item__image > .dynameyes {
     width: 100px;
 }
@@ -210,6 +215,12 @@ ol.carousel-indicators > li {
 .work-experience-item__info__title {
     font-weight: 500;
     font-size: 28px;
+    font-family: 'Proxima Nova', sans-serif;
+}
+
+.work-experience-item__info__company {
+    font-weight: 500;
+    font-size: 24px;
     font-family: 'Proxima Nova', sans-serif;
 }
 
@@ -368,6 +379,10 @@ ol.carousel-indicators > li {
 
     .work-experience-item__info__title {
         font-size: 20px;
+    }
+
+    .work-experience-item__info__company {
+        font-size: 17px;
     }
 
     .work-experience-item__info__duration {
