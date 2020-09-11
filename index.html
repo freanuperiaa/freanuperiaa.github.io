@@ -50,18 +50,20 @@
                   <a class="nav-link" href="#aboutMe">About <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item mx-3 link-skill-desktop">
-                  <a class="nav-link" href="#skillsDesktop">Skills</a>
+                  <a class="nav-link" href="#skills">Skills</a>
                 </li>
                 <li class="nav-item mx-3 link-skill-mobile">
-                    <a class="nav-link" href="#skillsMobile">Skills</a>
+                    <a class="nav-link" href="#skillsMob">Skills</a>
                   </li>
                 <li class="nav-item mx-3">
                   <a class="nav-link" href="#workExperience">Work Experience</a>
                 </li>
-                <!-- will add once bootcamp is done -->
-                <!-- <li class="nav-item mx-3">
-                    <a class="nav-link" href="#">Projects</a>
-                </li> -->
+                <li class="nav-item mx-3 link-projects-desktop">
+                    <a class="nav-link" href="#projects">Projects</a>
+                </li>
+                <li class="nav-item mx-3 link-projects-mobile">
+                    <a class="nav-link" href="#projectsMob">Projects</a>
+                </li>
                 <li class="nav-item mx-3">
                     <a class="nav-link" href="#contact">Contact</a>
                 </li>
@@ -92,7 +94,7 @@
                     </p>
                 </div>
 
-                <div class="row mt-5 skills adjust-card-mobile skills-desktop" id="skillsDesktop">
+                <div class="row mt-5 skills adjust-card-mobile skills-desktop" id="skills">
 
                     <!-- this serves as title of card -->
                     <div class="col-12 col-md-12 col-lg-12">
@@ -162,7 +164,7 @@
                 </div>
 
                 <div id="carouselExampleIndicators" class="carousel slide mt-5" data-ride="carousel" id="skills">
-                    <div class="row skills adjust-card-mobile skills-mobile" id="skillsMobile">
+                    <div class="row skills adjust-card-mobile skills-mobile" id="skillsMob">
                         <ol class="carousel-indicators">
                           <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                           <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -268,7 +270,8 @@
                                 <div class="work-experience-item__info__duration">August 2019 - August 2020</div>
                                 <div class="work-experience-item__info__desc">
                                     Worked on various projects, ranging on writing web crawlers to making simple static webpages to dynamic web apps.
-                                    Also did mobile app projects. Used various technologies such as Python Scrapy, request, Selenium, Typescript, Vue, to name a few.
+                                    Also did mobile app projects. Used various technologies such as Python, Scrapy, Requests, Selenium, Typescript, 
+                                    Vue, and Flutter to name a few.
                                 </div>
                             </div>
 
@@ -288,7 +291,7 @@
                                 <div class="work-experience-item__info__company">Dynameyes S.R.O.</div>
                                 <div class="work-experience-item__info__duration">June 2019 - August 2019</div>
                                 <div class="work-experience-item__info__desc">
-                                    Trained for mobile app development using Dart and Flutter and worked particularly on the Android platform. Worked on a 
+                                    Got trained for mobile app development using Dart and Flutter and worked particularly on the Android platform. Worked on a 
                                     cross-platform Fintech app.
                                 </div>
                             </div>
@@ -321,6 +324,195 @@
                         </div>
                     </div>
 
+                </div>
+
+                <div class="row align-items-center mt-5 projects adjust-card-mobile-2 projects-desktop" id="projects">
+                    <div class="col-12 col-md-12 col-lg-12">
+                        <p class="card-title">Projects</p>
+                    </div>
+
+                    <!-- project items -->
+                    <div class="col-md-6 col-lg-6 project__item">
+                        <div class="project__item__image">
+                            <img src="./assets/images/icons8-film-reel-64.png" alt="film">
+                        </div>
+                        <div class="project__item__title">
+                            <a href="https://github.com/freanuperiaa/">Coy MDB</a>
+                        </div>
+                        <div class="project__item__desc">
+                            Coy Movie Database. An amalgam of iMDB and Letterboxd, where you can be in a community if cinephiles, write your own review, and
+                            get the latest news about film! Powered by the MERN stack.
+                        </div>
+                    </div>
+
+
+                    <div class="col-md-6 col-lg-6 project__item">
+                        <div class="project__item__image">
+                            <img src="./assets/images/icons8-restaurant-menu-64.png" alt="restaurant">
+                        </div>
+                        <div class="project__item__title">
+                            <a href="https://github.com/freanuperiaa/">Kahit Saan!</a>
+                        </div>
+                        <div class="project__item__desc">
+                            An app to help people decide where to eat. Community-driven Yelp where restaurant entries are added and rated
+                            by the users themselves!
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-6 project__item">
+                        <div class="project__item__image">
+                            <img src="./assets/images/icons8-calculator-80.png" alt="google maps">
+                        </div>
+                        <div class="project__item__title">
+                            <a href="https://github.com/freanuperiaa/">Coylculator</a>
+                        </div>
+                        <div class="project__item__desc">
+                            Calculate your expenses for the week-month, and plan aheaad with this simple and lightweight app!
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-6 project__item">
+                        <div class="project__item__image">
+                            <img src="./assets/images/icons8-facebook-64.png" alt="fb">
+                        </div>
+                        <div class="project__item__title">
+                            <a href="https://github.com/freanuperiaa/fb_parser">FB Parser</a>
+                        </div>
+                        <div class="project__item__desc">
+                            Parse posts from all (or one of the) groups in your FB Account. Written in Python and uses the Scrapy framework for crawling, and 
+                            the Django framework for the ORM, admin interface, and the database.
+                        </div>
+                    </div>
+
+
+                    <div class="col-md-6 col-lg-6 project__item">
+                        <div class="project__item__image">
+                            <img src="./assets/images/icons8-google-maps-old-64.png" alt="google maps">
+                        </div>
+                        <div class="project__item__title">
+                            <a href="https://github.com/freanuperiaa/gmaps_scraper">Google Maps Scraper</a>
+                        </div>
+                        <div class="project__item__desc">
+                            Find establishments near you and have it in a form of a .csv file. Done with Python and Selenium for automation of browser.
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-6 project__item">
+                        <div class="project__item__image">
+                            <img src="./assets/images/icons8-pos-terminal-64.png" alt="google maps">
+                        </div>
+                        <div class="project__item__title">
+                            <a href="https://github.com/freanuperiaa/django_grocery_POS">Django Grocery Inventory & POS</a>
+                        </div>
+                        <div class="project__item__desc">
+                            A simple inventory and POS web app designed for small-scale groceries and stores.
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div id="projectsCarouselMobile" class="carousel slide mt-5" data-ride="carousel" id="skills">
+                    <div class="row projects adjust-card-mobile projects-mobile" id="projectsMob">
+                        <ol class="carousel-indicators">
+                          <li data-target="#projectsCarouselMobile" data-slide-to="0" class="active"></li>
+                          <li data-target="#projectsCarouselMobile" data-slide-to="1"></li>
+                          <li data-target="#projectsCarouselMobile" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                          <div class="col-12">
+                              <p class="card-title">Projects</p>
+                          </div>
+                          <div class="carousel-item active">
+                            
+                                <div class="col-12 project__item">
+                                    <div class="project__item__image">
+                                        <img src="./assets/images/icons8-film-reel-64.png" alt="film">
+                                    </div>
+                                    <div class="project__item__title">
+                                        <a href="https://github.com/freanuperiaa/">Coy MDB</a>
+                                    </div>
+                                    <div class="project__item__desc">
+                                        Coy Movie Database. An amalgam of iMDB and Letterboxd, where you can be in a community if cinephiles, write your own review, and
+                                        get the latest news about film! Powered by the MERN stack.
+                                    </div>
+                                </div>
+
+                                <div class="col-12 project__item">
+                                    <div class="project__item__image">
+                                        <img src="./assets/images/icons8-restaurant-menu-64.png" alt="restaurant">
+                                    </div>
+                                    <div class="project__item__title">
+                                        <a href="https://github.com/freanuperiaa/">Kahit Saan!</a>
+                                    </div>
+                                    <div class="project__item__desc">
+                                        An app to help people decide where to eat. Community-driven Yelp where restaurant entries are added and rated
+                                        by the users themselves!
+                                    </div>
+                                </div>
+
+                          </div>
+
+                          <div class="carousel-item">
+
+                            <div class="col-12 project__item">
+                                <div class="project__item__image">
+                                    <img src="./assets/images/icons8-calculator-80.png" alt="google maps">
+                                </div>
+                                <div class="project__item__title">
+                                    <a href="https://github.com/freanuperiaa/">Coylculator</a>
+                                </div>
+                                <div class="project__item__desc">
+                                    Calculate your expenses for the week-month, and plan aheaad with this simple and lightweight app!
+                                </div>
+                            </div>
+        
+                            <div class="col-12 project__item">
+                                <div class="project__item__image">
+                                    <img src="./assets/images/icons8-facebook-64.png" alt="fb">
+                                </div>
+                                <div class="project__item__title">
+                                    <a href="https://github.com/freanuperiaa/fb_parser">FB Parser</a>
+                                </div>
+                                <div class="project__item__desc">
+                                    Parse posts from all (or one of the) groups in your FB Account. Written in Python and uses the Scrapy framework for crawling, and 
+                                    the Django framework for the ORM, admin interface, and the database.
+                                </div>
+                            </div>
+
+                          </div>
+
+                          <div class="carousel-item">
+
+                            <div class="col-12 project__item">
+                                <div class="project__item__image">
+                                    <img src="./assets/images/icons8-google-maps-old-64.png" alt="google maps">
+                                </div>
+                                <div class="project__item__title">
+                                    <a href="https://github.com/freanuperiaa/gmaps_scraper">Google Maps Scraper</a>
+                                </div>
+                                <div class="project__item__desc">
+                                    Find establishments near you and have it in a form of a .csv file. Done with Python and Selenium for automation of browser.
+                                </div>
+                            </div>
+        
+                            <div class="col-12 project__item">
+                                <div class="project__item__image">
+                                    <img src="./assets/images/icons8-pos-terminal-64.png" alt="google maps">
+                                </div>
+                                <div class="project__item__title">
+                                    <a href="https://github.com/freanuperiaa/django_grocery_POS">Django Grocery Inventory & POS</a>
+                                </div>
+                                <div class="project__item__desc">
+                                    A simple inventory and POS web app designed for small-scale groceries and stores.
+                                </div>
+                            </div>
+
+                          </div>
+
+                          
+                        </div>
+                    </div>
                 </div>
 
                 <div class="row mt-5 contact" id="contact">

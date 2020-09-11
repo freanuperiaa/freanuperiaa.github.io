@@ -65,6 +65,10 @@ h1 {
     display: none;
 }
 
+.link-projects-mobile {
+    display: none;
+}
+
 section.landing {
     margin: 12% 20%;
     background-color: rgba(69, 71, 73, 0.8);
@@ -232,6 +236,45 @@ ol.carousel-indicators > li {
     margin: 10px 0px;
 }
 
+.projects-mobile {
+    display: none;
+}
+
+.projects {
+    margin-top: 3%;
+    background-color: #F0F2F5;
+    padding: 40px;
+    border-radius: 15px;
+}
+
+.project__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    padding: 20px;
+    margin-bottom: 40px;
+}
+
+.project__item__title {
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Proxima Nova', sans-serif;
+    margin: 15px 0px 10px;
+    padding: 10px;
+}
+
+.project__item__title > a {
+    text-decoration: none;
+    color: black;
+}
+
+.project__item__image > img {
+    height: 100px;
+}
+
 .contact {
     margin: 3% -1%;
     background-color: indianred;
@@ -305,7 +348,15 @@ ol.carousel-indicators > li {
         display: none;
     }
 
+    .link-projects-desktop {
+        display: none;
+    }
+
     .link-skill-mobile {
+        display: block;
+    }
+
+    .link-projects-mobile {
         display: block;
     }
 
@@ -353,6 +404,7 @@ ol.carousel-indicators > li {
 
     .card-title {
         font-size: 24px;
+        margin-bottom: 20px;
     }
 
     .work-experience {
@@ -391,6 +443,48 @@ ol.carousel-indicators > li {
 
     .work-experience-item__info__desc {
         font-size: 15px;
+    }
+
+    .projects-desktop {
+        display: none;    
+    }
+
+    .projects-mobile {
+        display: block;
+    }
+
+    .projects {
+        padding: 20px 5px;
+    }
+
+    .project__item {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    
+        padding: 15px;
+        margin-bottom: 20px;
+    }
+    
+    .project__item__title {
+        font-size: 20px;
+        margin: 5px 0px 2px;
+        padding: 5px;
+    }
+
+    .project__item__desc {
+        font-size: 14px;
+    }
+    
+    .project__item__title > a {
+        text-decoration: none;
+        color: black;
+    }
+    
+    .project__item__image > img {
+        height: 100px;
     }
 
     .contact {
