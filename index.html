@@ -13,6 +13,9 @@
         <!-- bootstrap CSS -->
         <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
 
+        <!-- animate.css (https://animate.style) -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
         <!-- google fonts -->
 
         <!-- Source Sans Pro -->
@@ -34,6 +37,8 @@
     </head>
 
     <body>
+        <!-- load type animation -->
+        <script src="https://cdn.jsdelivr.net/npm/typeit@7.0.4/dist/typeit.min.js"></script>
 
         <nav class="navbar navbar-expand-lg navbar-light navbar-custom-color p-3">
             <div class="mr-auto">
@@ -72,9 +77,20 @@
           </nav>
         
           <!-- code hello there -->
-          <section class="landing">
-              <p> &gt;&nbsp;print("Hello There!")</p>
+          <section class="landing animate__animated animate__bounce">
+              <p id="whereToType"></p>
           </section>
+
+          <script>
+            new TypeIt("#whereToType", {
+                strings: ["Hello there! :D", ["I'm Freanu, and welcome to my site~"]],
+                speed: 100,
+                startDelay: 1500
+            })
+            .go()
+            .stop()
+            ;
+          </script>
 
           <!-- image of me -->
           <section class="image-me">

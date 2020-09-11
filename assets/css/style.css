@@ -15,6 +15,12 @@
 html {
     scroll-behavior: smooth;
 }
+
+/* typeitjs styles */
+.typed-cursor {
+    font-size: 400px;
+}
+
 /* bootstrap custom styling */
 
 /* bootstrap collapse icon */
@@ -350,6 +356,12 @@ ol.carousel-indicators > li {
 }
 
 @media (max-width: 550px) {
+
+    /* typeitjs styles */
+    .typed-cursor {
+        font-size: 350px;
+    }
+
     .container {
         padding: 5px 12px !important;
     }
