@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+        <title>Freanu Peria</title>
+
+        <!-- head -->
+        <link rel="icon" href="./assets/images/icons8-code-30.png" type="image/icon type">
+
+        <!-- bootstrap CSS -->
+        <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+
+        <!-- animate.css (https://animate.style) -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+        <!-- google fonts -->
+
+        <!-- Source Sans Pro -->
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap" rel="stylesheet">
+
+        <!-- Fira Code -->
+        <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@500&display=swap" rel="stylesheet">
+
+        <!-- Raleway -->
+        <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+
+        <!-- Kumbh Sans -->
+        <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap" rel="stylesheet">
+
+
+        <!-- external CSS -->
+        <link rel="stylesheet" href="./assets/css/style.css">
+
+    </head>
+
+    <body>
+        <!-- load type animation -->
+        <script src="https://cdn.jsdelivr.net/npm/typeit@7.0.4/dist/typeit.min.js"></script>
+
+        <nav class="navbar navbar-expand-lg navbar-light navbar-custom-color p-3">
+            <div class="mr-auto">
+                <a class="navbar-brand pl-4" href="#">Freanu Peria </a>
+            </div>  
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item mx-3">
+                  <a class="nav-link" href="#aboutMe">About <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item mx-3 link-skill-desktop">
+                  <a class="nav-link" href="#skills">Skills</a>
+                </li>
+                <li class="nav-item mx-3 link-skill-mobile">
+                    <a class="nav-link" href="#skillsMob">Skills</a>
+                  </li>
+                <li class="nav-item mx-3">
+                  <a class="nav-link" href="#workExperience">Work Experience</a>
+                </li>
+                <li class="nav-item mx-3 link-projects-desktop">
+                    <a class="nav-link" href="#projects">Projects</a>
+                </li>
+                <li class="nav-item mx-3 link-projects-mobile">
+                    <a class="nav-link" href="#projectsMob">Projects</a>
+                </li>
+                <li class="nav-item mx-3">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        
+          <!-- code hello there -->
+          <section class="landing animate__animated animate__bounce">
+              <p id="whereToType"></p>
+          </section>
+
+          <script>
+            new TypeIt("#whereToType", {
+                strings: ["Hello there! :D", ["I'm Freanu, and welcome to my site~"]],
+                speed: 100,
+                startDelay: 1500
+            })
+            .go()
+            .stop()
+            ;
+          </script>
+
+          <!-- image of me -->
+          <section class="image-me">
+              <img src="./assets/images/me.jpg" alt="me">
+          </section>
+
+        <main>
+
+            <div class="container">
+
+                <div class="row about-me" id="aboutMe">
+                    <p>
+                        What's up! I'm Freanu Peria, a junior full stack developer and also a Computer Science Major.
+                        I have experience in scraping stuff off of the internet and doing static and dynamic web apps!
+                        I currently live in Quezon City, Philippines. I usually take walks and play some music whenever I feel down or frustrated by a bug I'm trying to fix. I love to play video games, watch films,
+                        and write code. 
+                    </p>
+                </div>
+
+                <div class="row mt-5 skills adjust-card-mobile skills-desktop" id="skills">
+
+                    <!-- this serves as title of card -->
+                    <div class="col-12 col-md-12 col-lg-12">
+                        <p class="card-title">Skills</p>
+                    </div>
+
+                    <!-- skill items -->
+                    <div class="col-6 col-md-4 col-lg-3 skill-item">
+                        <img src="./assets/images/icons8-python.svg" alt="python">
+                        <p>Python</p>
+                    </div>
+
+                    <div class="col-6 col-md-4 col-lg-3 skill-item">
+                        <img src="./assets/images/icons8-django.svg" alt="django">
+                        <p>Django</p>
+                    </div>
+
+                    <div class="col-6 col-md-4 col-lg-3 skill-item">
+                        <img class="adjust-image" src="./assets/images/web-crawler.svg" alt="django">
+                        <p>Web Crawling</p>
+                    </div>
+
+                    <div class="col-6 col-md-4 col-lg-3 skill-item">
+                        <img src="./assets/images/icons8-javascript.svg" alt="js">
+                        <p>Javascript</p>
+                    </div>
+
+                    <div class="col-6 col-md-4 col-lg-3 skill-item">
+                        <img src="./assets/images/icons8-typescript.svg" alt="ts">
+                        <p>Typescript</p>
+                    </div>
+
+                    <div class="col-6 col-md-4 col-lg-3 skill-item">
+                        <img class="adjust-image-2" src="./assets/images/icons8-mongodb.svg" alt="ts">
+                        <p>Mongo DB</p>
+                    </div>
+
+                    <div class="col-6 col-md-4 col-lg-3 skill-item">
+                        <img src="./assets/images/icons8-nodejs.svg" alt="ts">
+                        <p>Node JS</p>
+                    </div>
+
+                    <div class="col-6 col-md-4 col-lg-3 skill-item">
+                        <img class="adjust-image-3" src="./assets/images/icons8-vue-js.svg" alt="vue">
+                        <p>Vue JS</p>
+                    </div>
+
+                    <div class="col-6 col-md-4 col-lg-3 skill-item">
+                        <img src="./assets/images/icons8-react.svg" alt="ts">
+                        <p>React JS</p>
+                    </div>
+
+                    <div class="col-6 col-md-4 col-lg-3 skill-item">
+                        <img src="./assets/images/icons8-dart-96.png" alt="ts">
+                        <p>Dart</p>
+                    </div>
+
+                    <div class="col-6 col-md-4 col-lg-3 skill-item">
+                        <img src="./assets/images/icons8-flutter-96.png" alt="ts">
+                        <p>Flutter</p>
+                    </div>
+                </div>
+
+                <div id="carouselExampleIndicators" class="carousel slide mt-5" data-ride="carousel" id="skills">
+                    <div class="row skills adjust-card-mobile skills-mobile" id="skillsMob">
+                        <ol class="carousel-indicators">
+                          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                          <div class="col-12">
+                            <p class="card-title">Skills</p>
+                          </div>
+                          <div class="carousel-item active">
+                            
+                                <div class="mobile-skill-row">
+                                    <div class="skill-item mobile-skill-item">
+                                        <img src="./assets/images/icons8-python.svg" alt="python">
+                                        <p>Python</p>    
+                                    </div>
+                                    <div class="skill-item mobile-skill-item">
+                                        <img src="./assets/images/icons8-django.svg" alt="django">
+                                        <p>Django</p>                                    
+                                    </div>
+                                </div>
+
+                                <div class="mobile-skill-row">
+                                    <div class="skill-item mobile-skill-item">
+                                        <img class="adjust-image" src="./assets/images/web-crawler.svg" alt="django">
+                                        <p>Web Crawling</p>
+                                    </div>
+                                    <div class="skill-item mobile-skill-item">
+                                        <img src="./assets/images/icons8-javascript.svg" alt="js">
+                                        <p>Javascript</p>                                    
+                                    </div>
+                                </div>
+
+                                <div class="mobile-skill-row">
+                                    <div class="skill-item mobile-skill-item">
+                                        <img src="./assets/images/icons8-typescript.svg" alt="ts">
+                                        <p>Typescript</p>
+                                    </div>
+                                    <div class="skill-item mobile-skill-item">
+                                        <img class="adjust-image-2" src="./assets/images/icons8-mongodb.svg" alt="ts">
+                                        <p>Mongo DB</p>
+                                    </div>
+                                </div>
+
+                          </div>
+
+
+                          <div class="carousel-item">
+
+                                <div class="mobile-skill-row">
+                                    <div class="skill-item mobile-skill-item">
+                                        <img src="./assets/images/icons8-nodejs.svg" alt="ts">
+                                        <p>Node JS</p>
+                                    </div>
+                                    <div class="skill-item mobile-skill-item">
+                                        <img class="adjust-image-3" src="./assets/images/icons8-vue-js.svg" alt="vue">
+                                        <p>Vue JS</p>                                    
+                                    </div>
+                                </div>
+
+                                <div class="mobile-skill-row">
+                                    <div class="skill-item mobile-skill-item">
+                                        <img src="./assets/images/icons8-react.svg" alt="ts">
+                                        <p>React JS</p>
+                                    </div>
+                                    <div class="skill-item mobile-skill-item">
+                                        <img src="./assets/images/icons8-graphql.svg" alt="ts">
+                                        <p>Graph QL</p>                                  
+                                    </div>
+                                </div>
+
+                                <div class="mobile-skill-row">
+                                    <div class="skill-item mobile-skill-item">
+                                        <img src="./assets/images/icons8-dart-96.png" alt="ts">
+                                        <p>Dart</p>
+                                    </div>
+                                    <div class="skill-item mobile-skill-item">
+                                        <img src="./assets/images/icons8-flutter-96.png" alt="ts">
+                                        <p>Flutter</p>
+                                    </div>
+                                </div>
+
+                          </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row mt-5 work-experience adjust-card-mobile-2" id="workExperience">
+
+                    <!-- title -->
+                    <div class="col-12 col-md-12 col-lg-12">
+                        <p class="card-title work-experience-title">Work Experience</p>
+                    </div>
+
+                    <!-- work experience item -->
+                    <div class="col-12 col-md-12 col-lg-12">
+                        <div class="work-experience-item">
+                            <div class="work-experience-item__image">
+                                <img class="davph" src="./assets/images/davph.png" alt="davph">
+                            </div>
+
+                            <!-- davph.io -->
+                            <div class="work-experience-item__info">
+                                <div class="work-experience-item__info__title">Software Developer</div>
+                                <div class="work-experience-item__info__company">Dav.io</div>
+                                <div class="work-experience-item__info__duration">August 2019 - August 2020</div>
+                                <div class="work-experience-item__info__desc">
+                                    Worked on various projects, ranging on writing web crawlers to making simple static webpages to dynamic web apps.
+                                    Also did mobile app projects. Used various technologies such as Python, Scrapy, Requests, Selenium, Typescript, 
+                                    Vue, and Flutter to name a few.
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- work experience item -->
+                    <div class="col-12 col-md-12 col-lg-12 mt-5">
+                        <div class="work-experience-item mt-3">
+                            <div class="work-experience-item__image">
+                                <img src="./assets/images/freelance.png" alt="freelance">
+                            </div>
+
+                            <!-- freelance -->
+                            <div class="work-experience-item__info">
+                                <div class="work-experience-item__info__title">Freelance Programmer</div>
+                                <div class="work-experience-item__info__duration">February 2019 - June 2019</div>
+                                <div class="work-experience-item__info__desc">
+                                    <p>
+                                        The beginning of my career. 
+                                    </p>
+                                    <p>
+                                        Worked freelance for clients who needed different kinds of IT Solutions. Did some web scraping and data processing using Python.
+                                        Created simple static sites using the Django Framework -- all in a Ubuntu 18.04 powered old-school laptop!
+                                    </p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="row align-items-center mt-5 projects adjust-card-mobile-2 projects-desktop" id="projects">
+                    <div class="col-12 col-md-12 col-lg-12">
+                        <p class="card-title">Projects</p>
+                    </div>
+
+                    <!-- project items -->
+                    <div class="col-md-6 col-lg-6 project__item">
+                        <div class="my-card">
+                            <p class="project__item__title" style="margin: 15px 0px">
+                                Tidy PM App
+                            </p>
+
+                            <img 
+                                src="./assets/images/project-tidy.png" 
+                                alt="job sample"
+                                class="project-image"
+                            >
+
+                            <p class="project__item__desc" style="margin: 15px">
+                                An application made for a client company. This app is a project management app 
+                                where managers create and assign tasks to other people,  
+                                and the employees in turn update the statuses of their tasks. Frontend is mainly written in React while the backend utilizes
+                                Node JS and Mongo DB.
+                            </p>
+                            
+                        </div>
+                    </div>
+
+                    <!-- project items -->
+                    <div class="col-md-6 col-lg-6 project__item">
+                        <div class="my-card">
+                            <p class="project__item__title" style="margin: 15px 0px">
+                                howimfeelingnow
+                            </p>
+
+                            <img 
+                                src="./assets/images/project-howim.png" 
+                                alt="job sample"
+                                class="project-image"
+                            >
+
+                            <p class="project__item__desc" style="margin: 15px">
+                                An "Expert System" project in our Expert Systems class. It has a series of quizzes that can help you
+                                know how what are the likelihood that you have a particular type of mental health problem (do take note that this is not an actual medical diagnosis).
+                                A static site written with React.
+                            </p>
+                            
+                        </div>
+                    </div>
+
+                    <!-- project items -->
+                    <div class="col-md-6 col-lg-6 project__item">
+                        <div class="my-card">
+                            <p class="project__item__title" style="margin: 15px 0px">
+                                Budget Tracker App
+                            </p>
+
+                            <img 
+                                src="./assets/images/project-budget.png" 
+                                alt="job sample"
+                                class="project-image"
+                            >
+
+                            <p class="project__item__desc" style="margin: 15px">
+                                A project written for the final phase of the bootcamp I attended. A full stack application that is meant to track your expenses, with timeframes in day, month, and year. A breakdown is shown with a Pie chart.
+                                Written with React JS and Node JS.
+                            </p>
+                            
+                        </div>
+                    </div>
+
+
+                    <!-- project items -->
+                    <div class="col-md-6 col-lg-6 project__item">
+                        <div class="my-card">
+                            <p class="project__item__title" style="margin: 15px 0px">
+                                FB Parser
+                            </p>
+
+                            <img 
+                                src="./assets/images/project-fb.png" 
+                                alt="job sample"
+                                class="project-image"
+                            >
+
+                            <p class="project__item__desc" style="margin: 15px">
+                                Parse posts from all (or one of the) groups in your FB Account. Written in Python and uses the Scrapy framework for crawling, and 
+                                the Django framework for the ORM, admin interface, and the database. Can only run on "mbasic" version of Facebook.
+                            </p>
+                            
+                        </div>
+                    </div>
+
+
+                    <!-- project items -->
+                    <div class="col-md-6 col-lg-6 project__item">
+                        <div class="my-card">
+                            <p class="project__item__title" style="margin: 15px 0px">
+                                Google Maps Scraper
+                            </p>
+
+                            <img 
+                                src="./assets/images/project-maps.png" 
+                                alt="job sample"
+                                class="project-image"
+                            >
+
+                            <p class="project__item__desc" style="margin: 15px">
+                                A script written for a client who requires to have a list of particular types of establishment in a place.
+                                Find establishments near a set location and have it in a form of a .csv file. Done with Python and Selenium for automation of browser.
+                            </p>
+                            
+                        </div>
+                    </div>
+
+                    <!-- project items -->
+                    <div class="col-md-6 col-lg-6 project__item">
+                        <div class="my-card">
+                            <p class="project__item__title" style="margin: 15px 0px">
+                                Django Inventory System
+                            </p>
+
+                            <img 
+                                src="./assets/images/project-django.jpg" 
+                                alt="job sample"
+                                class="project-image"
+                            >
+
+                            <p class="project__item__desc" style="margin: 15px">
+                                A django project I have written when I started out studing web development in Python. A simple inventory and POS web app designed for small stores.
+                                Written in plain Django, using the static web page function-based views built into it.
+                            </p>
+                            
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div id="projectsCarouselMobile" class="carousel slide mt-5" data-ride="carousel" id="skills">
+                    <div class="row projects adjust-card-mobile-2 projects-mobile" id="projectsMob">
+                        <ol class="carousel-indicators">
+                          <li data-target="#projectsCarouselMobile" data-slide-to="0" class="active"></li>
+                          <li data-target="#projectsCarouselMobile" data-slide-to="1"></li>
+                          <li data-target="#projectsCarouselMobile" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                          <div class="col-12">
+                              <p class="card-title">Projects</p>
+                          </div>
+
+                          <div class="carousel-item active">
+                            <!-- project items -->
+                            <div class="col-12 project__item">
+                                <div class="my-card">
+                                    <p class="project__item__title" style="margin: 15px 0px">
+                                        Tidy PM App
+                                    </p>
+
+                                    <img 
+                                        src="./assets/images/project-tidy.png" 
+                                        alt="job sample"
+                                        class="project-image"
+                                    >
+
+                                    <p class="project__item__desc" style="margin: 15px 20px">
+                                        An application made for a client company. This app is a project management app 
+                                        where managers create and assign tasks to other people,  
+                                        and the employees in turn update the statuses of their tasks. Frontend is mainly written in React while the backend utilizes
+                                        Node JS and Mongo DB.
+                                    </p>
+                                    
+                                </div>
+                            </div>
+        
+                            <!-- project items -->
+                            <div class="col-12 project__item">
+                                <div class="my-card">
+                                    <p class="project__item__title" style="margin: 15px 0px">
+                                        howimfeelingnow
+                                    </p>
+
+                                    <img 
+                                        src="./assets/images/project-howim.png" 
+                                        alt="job sample"
+                                        class="project-image"
+                                    >
+
+                                    <p class="project__item__desc" style="margin: 15px 20px">
+                                        An "Expert System" project in our class, CS 404 - Expert Systems. It has a series of quizzes that can help you
+                                        know how what are the likelihood that you have a particular type of mental health problem (do take note that this is not an actual medical diagnosis).
+                                        A static site written with React, though it could have been written with Gatsby JS given the fact that it has no backend and is completely static.
+                                    </p>
+                                    
+                                </div>
+                            </div>
+
+                          </div>
+
+                          <div class="carousel-item">
+
+                            <!-- project items -->
+                            <div class="col-12 project__item">
+                                <div class="my-card">
+                                    <p class="project__item__title" style="margin: 15px 0px">
+                                        Budget Tracker App
+                                    </p>
+
+                                    <img 
+                                        src="./assets/images/project-budget.png" 
+                                        alt="job sample"
+                                        class="project-image"
+                                    >
+
+                                    <p class="project__item__desc" style="margin: 15px 20px">
+                                        A project written for the final phase of the bootcamp I attended. A full stack application that is meant to track your expenses, with timeframes in day, month, and year. A breakdown is shown with a Pie chart.
+                                        Written with React JS and Node JS.
+                                    </p>
+                                    
+                                </div>
+                            </div>
+        
+                            <!-- project items -->
+                            <div class="col-12 project__item">
+                                <div class="my-card">
+                                    <p class="project__item__title" style="margin: 15px 0px">
+                                        FB Parser
+                                    </p>
+
+                                    <img 
+                                        src="./assets/images/project-fb.png" 
+                                        alt="job sample"
+                                        class="project-image"
+                                    >
+
+                                    <p class="project__item__desc" style="margin: 15px 20px">
+                                        Parse posts from all (or one of the) groups in your FB Account. Written in Python and uses the Scrapy framework for crawling, and 
+                                        the Django framework for the ORM, admin interface, and the database. Can only run on "mbasic" version of Facebook.
+                                    </p>
+                                    
+                                </div>
+                            </div>
+
+                          </div>
+
+                          <div class="carousel-item">
+
+                            <!-- project items -->
+                            <div class="col-12 project__item">
+                                <div class="my-card">
+                                    <p class="project__item__title" style="margin: 15px 0px">
+                                        Google Maps Scraper
+                                    </p>
+
+                                    <img 
+                                        src="./assets/images/project-maps.png" 
+                                        alt="job sample"
+                                        class="project-image"
+                                    >
+
+                                    <p class="project__item__desc" style="margin: 15px 20px">
+                                        A script written for a client who requires to have a list of particular types of establishment in a place.
+                                        Find establishments near a set location and have it in a form of a .csv file. Done with Python and Selenium for automation of browser.
+                                    </p>
+                                    
+                                </div>
+                            </div>
+
+                            <!-- project items -->
+                            <div class="col-12 project__item">
+                                <div class="my-card">
+                                    <p class="project__item__title" style="margin: 15px 0px">
+                                        Django Inventory System
+                                    </p>
+
+                                    <img 
+                                        src="./assets/images/project-django.jpg" 
+                                        alt="job sample"
+                                        class="project-image"
+                                    >
+
+                                    <p class="project__item__desc" style="margin: 15px 20px">
+                                        A django project I have written when I started out studing web development in Python. A simple inventory and POS web app designed for small stores.
+                                        Written in plain Django, using the static web page function-based views built into it.
+                                    </p>
+                                    
+                                </div>
+                            </div>
+
+                          </div>
+
+                          
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row mt-5 contact" id="contact">
+
+                    <!-- title -->
+                    <div class="col-12">
+                        <p class="contact-title">Contact</p>
+                    </div>
+
+                    <!-- subtitle -->
+
+                    <div class="col-12">
+                        <p class="subtitle">
+                            Whether you're planning to hire me for a small time (or even big!) project, 
+                            or just wanting to have a chat, please don't hesitate to --
+                        </p>
+
+                        <p class="reach-out">reach out!</p>
+                    </div>
+
+                    <!-- email -->
+                    <div class="col-12 col-md-6 col-lg-6 mt-3 contact-info">
+                        <div class="contact-info__item">
+                            <div class="contact-info__item__image">
+                                <img src="./assets/images/icons8-email-open-64.png" alt="email">
+                            </div>
+                            <div class="contact-info__item__info">
+                                freanuperia@gmail.com
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- phone -->
+                    <div class="col-12 col-md-6 col-lg-6 mt-3 contact-info">
+                        <div class="contact-info__item">
+                            <div class="contact-info__item__image">
+                                <img src="./assets/images/icons8-cell-phone-48.png" alt="cellphone">
+                            </div>
+                            <div class="contact-info__item__info">
+                                09164066759
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- external links -->
+                    <div class="col-12 mt-3 external-links">
+                        
+                        <!-- external link -->
+                        <a href="https://github.com/freanuperiaa">
+                            <img src="./assets/images/icons8-github-64.png" alt="github">  
+                        </a>
+
+                        <!-- external link -->
+                        <a href="https://gitlab.com/freanuperia">
+                            <img src="./assets/images/icons8-gitlab-48.png" alt="gitlab">  
+                        </a>
+
+                        <!-- external link -->
+                        <a href="https://www.linkedin.com/in/freanu-peria-554213180/">
+                            <img src="./assets/images/icons8-linkedin-64.png" alt="linkedin">  
+                        </a>
+
+                        <!-- external link -->
+                        <a href="https://stackoverflow.com/users/10907846/francis-magnusson">
+                            <img src="./assets/images/so-icon.png" alt="twitter">
+                        </a>
+
+                        <a href="https://twitter.com/_freanu">
+                            <img src="./assets/images/icons8-twitter-30.png" alt="twitter">
+                        </a>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </main>
+
+        <!-- !!!!! Scripts !!!!! -->
+
+
+        <!-- jQuery -->
+        <script type="text/javascript" src="./assets/js/jquery-3.5.1.min.js"></script>
+
+        <!-- popper -->
+        <script type="text/javascript" src="./assets/js/popper.min.js"></script>
+
+        <!-- Bootstrap JS -->
+        <script type="text/javascript" src="./assets/js/bootstrap.min.js"></script>
+    </body>
+</html>

@@ -1,0 +1,573 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Proxima Nova'), url('../typography/ProximaNova-Regular.otf') format('truetype');
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* typeitjs styles */
+.typed-cursor {
+    font-size: 400px;
+}
+
+/* bootstrap custom styling */
+
+/* bootstrap collapse icon */
+.navbar-toggler-icon {
+    float: right;
+    height: 20px;
+    background-image: url('../images/bars.svg') !important;
+    /* https://stackoverflow.com/questions/24224112/css-filter-make-color-image-with-transparency-white */
+    filter: brightness(0) invert(1);
+}
+.navbar-toggler {
+    border:0px;
+}
+
+/* color of navbar */
+.navbar-custom-color {
+    background-color: indianred;
+}
+
+/* text in navbar */
+.navbar-custom-color  ul > li > a.nav-link
+{
+    color: white !important;
+    font-family: 'Proxima Nova', sans-serif;
+}
+
+.navbar-custom-color .navbar-brand {
+    color: white !important;
+    font-family: 'Raleway', sans-serif;
+    font-size: 28px;
+}
+
+
+/* custom style */
+
+body {
+    background-color: #0daae9;
+    background-image: url("../images/large-triangles.svg");
+    font-family: "Kumbh Sans", sans-serif;
+}
+
+h1 {
+    background-color: indianred;
+    font-family: Helvetica, Arial, Helvetica, sans-serif;
+}
+
+.link-skill-mobile {
+    display: none;
+}
+
+.link-projects-mobile {
+    display: none;
+}
+
+section.landing {
+    margin: 12% 25%;
+    background-color: rgba(69, 71, 73, 0.8);
+    padding: 20px;
+    border-radius: 15px;
+}
+
+section.landing > p {
+    font-family: 'Fira Code', monospace;
+    text-align: center;
+    font-weight: bolder;
+    color: beige;
+    margin-top: 10px;
+    font-size: 36px;
+}
+
+section.image-me {
+    text-align: center;
+}
+
+section.image-me > img {
+
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: indianred;
+    border-width: 12px;
+    margin: 50px 0px 25px;
+
+}
+
+.about-me {
+    margin-top: -130px;
+    background-color: #F0F2F5;
+    padding: 120px 50px 15px 50px;
+    border-radius: 15px;
+}
+
+.about-me > p {
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.container {
+    padding: 10px 150px;
+}
+
+.skills {
+    margin-top: 3%;
+    background-color: #F0F2F5;
+    padding: 40px;
+    border-radius: 15px;
+}
+
+.card-title {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+.skill-item {
+    text-align: center;
+    margin: 2% 0;
+}
+
+.skill-icon {
+    background-color: skyblue;
+    height: 100px;
+    border-radius: 20px;
+}
+
+.adjust-image {
+    height: 85px;
+    margin-bottom: 15px;
+}
+
+.adjust-image-2 {
+    height: 90px;
+}
+
+.adjust-image-3 {
+    height: 80px;
+    width: 80px;
+}
+
+.skills-mobile {
+    display: none;
+}
+
+ol.carousel-indicators > li {
+    background-color: grey;
+}
+
+.mobile-skill-row {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
+
+.mobile-skill-item {
+    margin: 4% auto;
+}
+
+.carousel-inner p.mobile-skill-title {
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+#carouselExampleIndicators {
+    margin: 0px -8px;
+}
+
+.work-experience-item__image > img.davph {
+    width: 100px;
+    height: auto;
+}
+
+.work-experience-item__image > .dynameyes {
+    width: 100px;
+}
+
+.work-experience {
+    margin-top: 3%;
+    background-color: #F0F2F5;
+    padding: 40px;
+    border-radius: 15px;
+}
+
+.work-experience-title {
+    margin-bottom: 40px;
+}
+
+.work-experience-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.work-experience-item__image > img {
+    height: 100px;
+}
+
+.work-experience-item__info {
+    margin-left: 55px;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+
+.work-experience-item__info__title {
+    font-weight: 500;
+    font-size: 28px;
+    font-family: 'Proxima Nova', sans-serif;
+}
+
+.work-experience-item__info__company {
+    font-weight: 500;
+    font-size: 24px;
+    font-family: 'Proxima Nova', sans-serif;
+}
+
+.work-experience-item__info__duration {
+    font-weight: lighter;
+    font-style: italic;
+    color: grey;
+    font-size: 16px;
+    margin: 10px 0px;
+}
+
+.projects-mobile {
+    display: none;
+}
+
+.projects {
+    margin-top: 3%;
+    background-color: #F0F2F5;
+    padding: 40px;
+    border-radius: 15px;
+}
+
+.project__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+.project__item__title {
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Proxima Nova', sans-serif;
+    margin: 15px 0px 10px;
+    padding: 10px;
+}
+
+.project__item__title > a {
+    text-decoration: none;
+    color: black;
+}
+
+.project__item__image > img {
+    height: 100px;
+}
+
+.my-card {
+    margin: 20px;
+    border-radius: 25px;
+    border: 1px solid 	#A9A9A9;
+    box-shadow: 2px 2px 3px #D3D3D3;
+    overflow: hidden;
+    width: inherit;
+    height: inherit;
+}
+
+.project-image {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.contact {
+    margin: 3% -1%;
+    background-color: indianred;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.contact-title {
+    color: white;
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    padding-left: 15px;
+}
+
+.subtitle {
+    color: white;
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.reach-out {
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+    font-size: 32px;
+    font-weight: lighter;
+}
+
+.contact-info__item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    margin: 0 auto;
+}
+
+
+.contact-info__item__image > img {
+    margin: 10px 15px;
+    height: 36px;
+}
+
+.contact-info__item__info {
+    color: #fff;
+    font-size: 20px;
+    font-style: italic;
+    
+}
+
+.external-links {
+    text-align: center;
+}
+
+.external-links > a {
+    margin: 0 20px;
+}
+
+.external-links > a > img {
+    height: 32px;
+}
+
+.external-links > a > img:hover {
+    filter: grayscale(80%);
+    opacity: 0.6;
+}
+
+@media (max-width: 550px) {
+
+    /* typeitjs styles */
+    .typed-cursor {
+        font-size: 350px;
+    }
+
+    .container {
+        padding: 5px 12px !important;
+    }
+
+    .link-skill-desktop {
+        display: none;
+    }
+
+    .link-projects-desktop {
+        display: none;
+    }
+
+    .link-skill-mobile {
+        display: block;
+    }
+
+    .link-projects-mobile {
+        display: block;
+    }
+
+    .navbar-custom-color .navbar-brand {
+        font-size: 22px;
+    }
+
+    section.landing {
+        margin: 40% 10%;
+    }
+
+    section.landing > p {
+        font-size: 15px;
+    }
+
+    section.image-me > img {
+        height: 200px;
+        width: 200px;
+        border-width: 8px;
+    }
+
+    .skills-mobile {
+        display: block;
+    }
+
+    .skills-desktop {
+        display: none;
+    }
+
+    .about-me {
+        margin: -120px 10px 0px 10px;
+        padding: 120px 20px 10px 20px;
+    }
+
+    .about-me > p {
+        font-size: 18px;
+    }
+
+    .adjust-card-mobile {
+        margin: 2% 15px 0px 15px;
+    }
+
+    .skills {
+        padding: 20px 5px;
+    }
+
+    .card-title {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    .work-experience {
+        padding: 20px 5px;
+    }
+
+    .adjust-card-mobile-2 {
+        margin: 0px 8px;
+    }
+
+    .work-experience-item {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .work-experience-item__image {
+        margin: 25px 0px;
+    }
+
+    .work-experience-item__info {
+        text-align: center;
+        margin: 0px 15px;
+    }
+
+    .work-experience-item__info__title {
+        font-size: 20px;
+    }
+
+    .work-experience-item__info__company {
+        font-size: 17px;
+    }
+
+    .work-experience-item__info__duration {
+        font-size: 12px;
+    }
+
+    .work-experience-item__info__desc {
+        font-size: 15px;
+    }
+
+    .projects-desktop {
+        display: none;    
+    }
+
+    .projects-mobile {
+        display: block;
+    }
+
+    .projects {
+        padding: 20px 5px;
+    }
+
+    .project__item {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    
+        padding: 15px;
+    }
+    
+    .project__item__title {
+        font-size: 20px;
+        margin: 5px 0px 2px;
+        padding: 5px;
+    }
+
+    .project__item__desc {
+        font-size: 14px;
+    }
+    
+    .project__item__title > a {
+        text-decoration: none;
+        color: black;
+    }
+    
+    .project__item__image > img {
+        height: 100px;
+    }
+
+    .contact {
+        margin:5% 10px;
+        padding: 20px 5px;
+    }
+
+    .contact-title {
+        font-size: 24px;
+        padding-left: 0px;
+    }
+
+    .subtitle {
+        width: 80%;
+        font-size: 15px;
+    }
+
+    .reach-out {
+        font-size: 24px;
+    }
+
+    .contact-info__item {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .contact-info__item__image > img {
+        margin: 0;
+        height: 32px;
+    }
+
+    .contact-info__item__info {
+        font-size: 16px;
+    }
+
+    .external-links > a  {
+        margin: 0px 4px;
+    }
+
+    .external-links > a > img {
+        height: 25px;
+    }
+  }
+
+@media (max-width: 1200px) {
+    .container {
+        padding: 5px 75px;
+    }
+}
